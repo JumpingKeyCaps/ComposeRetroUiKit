@@ -168,9 +168,9 @@ Stylized neon oscilloscope displaying Lissajous curves.
 |:---:|:---:|:---:|:---:|
 | ![7-segments](screenshots/demo7segments.gif) | ![14-segments](screenshots/navigationmedic.gif) | ![Knob](screenshots/navigationaisle.gif) | ![LED](screenshots/searchmedic.gif) |
 
-| LED bar | Oscilloscope deco | Fractal visualizer | Wave forms |
+| Oscilloscope deco | Fractal visualizer | LED bar | Wave forms |
 |:---:|:---:|:---:|:---:|
-| ![LedBar](screenshots/addmedic.gif) | ![Oscilloscope](screenshots/deletemedic.gif) | ![Fractal](screenshots/searchmedic.gif) | ![Waves](screenshots/searchmedic.gif) |
+| ![Oscilloscope](screenshots/demoOscillo.gif)| ![Fractal](screenshots/demoFractal.gif) |![LedBar](screenshots/addmedic.gif) | ![Waves](screenshots/searchmedic.gif) |
 
 
 ---
