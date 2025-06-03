@@ -33,6 +33,7 @@ import androidx.compose.ui.text.TextStyle
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
+import com.lebaillyapp.composeretrouikit.demoScreen.Demo_7segmentDisplay
 import com.lebaillyapp.composeretrouikit.demoScreen.Demo_FractalVisualizer
 import com.lebaillyapp.composeretrouikit.demoScreen.Demo_SimpleNeonOscilloscope
 import com.lebaillyapp.composeretrouikit.ui.theme.ComposeRetroUIKitTheme
@@ -49,10 +50,13 @@ class MainActivity : ComponentActivity() {
 
 
                     //---- Demo Fractal visualizer
-                     Demo_FractalVisualizer(demoColor = Color(0xFF1DE9B6))
+          //           Demo_FractalVisualizer(demoColor = Color(0xFF1DE9B6))
 
                     //----Demo Simple Neon Oscilloscope
           //          Demo_SimpleNeonOscilloscope()
+
+                    //----Demo 7 segment display
+                    Demo_7segmentDisplay()
 
                 }
 
