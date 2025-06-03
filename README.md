@@ -1,3 +1,10 @@
+<p align="center">
+  <img src="screenshots/appico.png" alt="Logo" width="233" height="233">
+</p>
+
+
+---
+
 # Retro Display Components – Jetpack Compose
 
 A set of realistic UI components built with Jetpack Compose, including:  
