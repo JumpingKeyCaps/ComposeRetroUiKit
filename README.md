@@ -178,7 +178,6 @@ Stylized neon oscilloscope displaying Lissajous curves.
 ![Kotlin](https://img.shields.io/badge/Kotlin-7F52FF?logo=kotlin&logoColor=white)
 ![Jetpack Compose](https://img.shields.io/badge/Jetpack%20Compose-4285F4?logo=android&logoColor=white)
 ![Android Studio](https://img.shields.io/badge/Android%20Studio-3DDC84?logo=androidstudio&logoColor=white)
-![Platform: Android & Desktop](https://img.shields.io/badge/platform-Android%20%7C%20Desktop-orange)  
 ![UI Style: Retro](https://img.shields.io/badge/Style-Retro%20Display-%23ff69b4)
 
 ---
