@@ -7,6 +7,11 @@
 
 # Retro Display Components – Jetpack Compose
 
+![Kotlin](https://img.shields.io/badge/Kotlin-7F52FF?logo=kotlin&logoColor=white)
+![Jetpack Compose](https://img.shields.io/badge/Jetpack%20Compose-4285F4?logo=android&logoColor=white)
+![Android Studio](https://img.shields.io/badge/Android%20Studio-3DDC84?logo=androidstudio&logoColor=white)
+![UI Style: Retro](https://img.shields.io/badge/Style-Retro%20Display-%23ff69b4)
+
 A set of realistic UI components built with Jetpack Compose, including:  
 - 7- and 14-segment displays with advanced visual effects (bevel, glow, flicker, reflection).  
 - Individual LEDs or vertical LED bars like VU meters.  
@@ -182,9 +187,4 @@ Stylized neon oscilloscope displaying Lissajous curves.
 
 ---
 
-![Kotlin](https://img.shields.io/badge/Kotlin-7F52FF?logo=kotlin&logoColor=white)
-![Jetpack Compose](https://img.shields.io/badge/Jetpack%20Compose-4285F4?logo=android&logoColor=white)
-![Android Studio](https://img.shields.io/badge/Android%20Studio-3DDC84?logo=androidstudio&logoColor=white)
-![UI Style: Retro](https://img.shields.io/badge/Style-Retro%20Display-%23ff69b4)
 
----
