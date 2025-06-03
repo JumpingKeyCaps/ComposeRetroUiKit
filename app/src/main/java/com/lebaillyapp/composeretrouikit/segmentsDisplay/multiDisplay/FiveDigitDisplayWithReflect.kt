@@ -32,6 +32,7 @@ import androidx.compose.ui.unit.dp
  */
 @Composable
 fun FiveDigitDisplayWithReflect(
+    modifier: Modifier = Modifier,
     digit1: Int,
     digit2: Int,
     digit3: Int,
@@ -40,14 +41,7 @@ fun FiveDigitDisplayWithReflect(
 ){
 
 
-    Column(modifier = Modifier.fillMaxSize()) {
-
-
-
-
-        Spacer(modifier = Modifier.height(140.dp))
-
-
+    Column(modifier = modifier) {
 
         FiveDigitDisplay(
             modifier = Modifier.align(Alignment.CenterHorizontally),
@@ -127,23 +121,5 @@ fun FiveDigitDisplayWithReflect(
             alpha = 0.2f,
             spacer = 10.dp,
         )
-
-
-
-
-
-
-
-        Spacer(modifier = Modifier.height(50.dp))
-
-
-
-
-
-
-
     }
-
-
-
 }
