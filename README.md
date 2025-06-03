@@ -1,174 +1,186 @@
 # Retro Display Components – Jetpack Compose
 
-Un ensemble de composants UI réalistes en Jetpack Compose, incluant :
-- Afficheurs 7 et 14 segments avec effets visuels poussés (bevel, glow, flicker, reflection).
-- LED individuelles ou barres verticales type VU-mètre.
-- Potentiomètres rotatifs analogiques (style Marshall / Moog).
-- Support complet de personnalisation : couleur, alpha, taille, animation, état, style.
+A set of realistic UI components built with Jetpack Compose, including:  
+- 7- and 14-segment displays with advanced visual effects (bevel, glow, flicker, reflection).  
+- Individual LEDs or vertical LED bars like VU meters.  
+- Analog rotary knobs (inspired by Marshall / Moog style).  
+- Full customization support: color, alpha, size, animation, state, style.
 
 ---
 
-## 🧩 Composants inclus
+## 🧩 Included Components
 
 ### `SevenSegmentDigitDisplay`
 
-Afficheur unique à 7 segments photoréaliste, proportions standard (segments verticaux et horizontaux égaux).
+Photorealistic single 7-segment digit display with standard proportions (equal vertical and horizontal segments).
 
-- Effets visuels : glow, flicker, biseau dynamique.
-- Prend en charge chiffre (`digit`) ou segments manuels (`manualSegments`).
-- Affichage centré, parfait pour composition précise.
+- Visual effects: glow, flicker, dynamic bevel.  
+- Supports digit input (`digit`) or manual segment control (`manualSegments`).  
+- Centered display, ideal for precise composition.
 
 ---
 
 ### `SevenSegmentDigitDisplayAlt`
 
-Afficheur 7 segments personnalisable avec longueur indépendante des segments horizontaux.
+Customizable 7-segment digit display with independently adjustable horizontal segment length.
 
-- Permet compression verticale/horizontale stylisée.
-- Utilisé dans `FiveDigitDisplay`.
-- Prend en charge `digit`, `char`, ou segments manuels.
+- Allows stylish vertical/horizontal compression.  
+- Used in `FiveDigitDisplay`.  
+- Supports `digit`, `char`, or manual segment input.
 
 ---
 
 ### `SevenSegmentDigitDisplayExtended`
 
-Afficheur 7 segments personnalisable avec toute les features ajouter.
+Fully featured customizable 7-segment display with all enhancements.
 
 ---
 
 ### `FourteenSegmentDisplayExtended`
 
-Afficheur 14 segments ultra-complet avec :
-- Effets réalistes : glow, biseau, flicker, animation idle.
-- Support des lettres, chiffres, et configuration manuelle.
-- Animation `idle` type spinner configurable.
+Ultra-complete 14-segment display with:  
+- Realistic effects: glow, bevel, flicker, idle animation.  
+- Support for letters, digits, and manual configuration.  
+- Configurable spinner-style idle animation.
 
 ---
 
-###  `FiveDigitDisplay`
+### `FiveDigitDisplay`
 
-Affiche horizontalement cinq digits à 7 segments avec personnalisation indépendante de chaque chiffre.
+Horizontally displays five independent 7-segment digits with individual customization.
 
-- `SevenSegmentDisplayVariante` utilisé pour chaque chiffre.
-- Supporte : couleur, glow, flicker, alpha, épaisseur, biseau, espacement.
-- Rotation 3D optionnelle (`rotationXAngle`, `rotationYAngle`, `cameraAdjustment`).
-
----
-
-###  `FiveDigitDisplayWithReflect`
-
-Double affichage avec effet de reflet réaliste sous l’afficheur principal.
-
-- Utilise `FiveDigitDisplay` deux fois : affichage + reflet inversé.
-- Contrôle des angles, de l’alpha, et de la perspective simulée.
-- Parfait pour un effet miroir sur fond sombre.
+- Uses `SevenSegmentDisplayVariante` for each digit.  
+- Supports color, glow, flicker, alpha, thickness, bevel, spacing.  
+- Optional 3D rotation (`rotationXAngle`, `rotationYAngle`, `cameraAdjustment`).
 
 ---
 
-###  `Multi7SegDisplay`
+### `FiveDigitDisplayWithReflect`
 
-Afficheur multi-digit dynamique au format 7 segments (chiffres/lettres).
+Double display with realistic reflection effect beneath the main digits.
 
-- Utilise une liste de `SevenSegmentConfig`.
-- Supporte `overrideValue` (ex: `"1234"`), affichage inversé (`reversedOverride`), espacement conditionnel.
-- Option d’affichage d’un reflet avec configuration personnalisée (`ReflectConfig`).
-
----
-
-###  `Multi14SegDisplay`
-
-Afficheur photoréaliste multi-caractères à 14 segments pour lettres majuscules, chiffres ou symboles.
-
-- Affiche une chaîne de caractères (`text`) ou une liste de chiffres (`digits`).
-- Supporte spacing configurable et une `FourteenSegmentConfig` appliquée globalement.
+- Uses `FiveDigitDisplay` twice: main display + flipped reflection.  
+- Controls for angle, alpha, and simulated perspective.  
+- Perfect for mirror effects on dark backgrounds.
 
 ---
 
-###  `LedBarGraph`
+### `Multi7SegDisplay`
 
-Barre verticale de LEDs simulant un vu-mètre audio ou indicateur de niveau.
+Dynamic multi-digit 7-segment display (digits/letters).
 
-- LEDs animées avec flicker, glow, et indicateur de `peak hold` avec fondu.
-- Couleur indépendante par LED, personnalisable dynamiquement.
-- Supporte : alpha global, glow radius, durée du pic, espacement vertical.
-
----
-
-###  `RealisticLED`
-
-Composant LED unique avec effet visuel réaliste, clignotement et halo lumineux.
-
-- Couleur, taille, clignotement (`blinkInterval`), halo (`haloSpacer`) configurables.
-- Simule une LED rétro avec un rendu doux et réaliste même éteinte.
+- Uses a list of `SevenSegmentConfig`.  
+- Supports `overrideValue` (e.g., `"1234"`), reversed display (`reversedOverride`), conditional spacing.  
+- Optional reflection display with custom `ReflectConfig`.
 
 ---
 
-###  `RotaryKnob`
+### `Multi14SegDisplay`
 
-Potentiomètre réaliste et interactif à rotation infinie.
+Photorealistic multi-character 14-segment display for uppercase letters, digits, or symbols.
 
-- Style inspiré des amplis analogiques (Moog, Marshall).
-- Effets visuels :
-  - Bevel tournant simulant la lumière.
-  - Reflet dynamique sur le cœur.
-  - Curseur lumineux.
-  - Graduation stylisée avec tick actif.
-- Fonctionnalités :
-  - Rotation 360° avec interpolation animée.
-  - Crans configurables.
-  - Retour haptique par cran.
-  - Animation fluide entre les crans.
+- Displays a string (`text`) or a list of digits (`digits`).  
+- Supports configurable spacing and a global `FourteenSegmentConfig`.
+
+---
+
+### `LedBarGraph`
+
+Vertical LED bar simulating an audio VU meter or level indicator.
+
+- LEDs animated with flicker, glow, and peak hold indicator with fade.  
+- Independent color per LED, dynamically customizable.  
+- Supports global alpha, glow radius, peak duration, vertical spacing.
+
+---
+
+### `RealisticLED`
+
+Single LED component with realistic visual effect, blinking, and halo glow.
+
+- Configurable color, size, blink interval, and halo spacing.  
+- Simulates a retro LED with smooth, realistic rendering even when off.
+
+---
+
+### `RotaryKnob`
+
+Realistic interactive rotary knob with infinite rotation.
+
+- Style inspired by analog amps (Moog, Marshall).  
+- Visual effects:  
+  - Rotating bevel simulating light reflection.  
+  - Dynamic highlight on the knob center.  
+  - Illuminated cursor.  
+  - Stylized ticks with active tick indicator.  
+- Features:  
+  - 360° rotation with smooth animated interpolation.  
+  - Configurable detents (click stops).  
+  - Haptic feedback per detent.  
+  - Smooth animation between detents.
 
 ---
 
 ### `SimpleNeonOscilloscope`
 
-Oscilloscope stylisé néon avec affichage de formes Lissajous.
+Stylized neon oscilloscope displaying Lissajous curves.
 
-- Formes : sinus, carré, triangle, chaos, random.
-- Supporte forme personnalisée via lambda.
-- Paramètres : épaisseur, couleur, style de glow, fréquence.
-
----
-
-| Composant                        | Type                  | Spécificités clés                                           |
-|----------------------------------|-----------------------|-------------------------------------------------------------|
-| `SevenSegmentDigitDisplay`       | 7 segments            | Proportions standard, effets glow/flicker                   |
-| `SevenSegmentDigitDisplayAlt`    | 7 segments            | Segment horizontal indépendant, stylisation avancée         |
-| `SevenSegmentDigitDisplayExt`    | 7 segments            | Segment horizontal indépendant, stylisation avancée         |
-| `SevenSegmentDisplay`            | 7 segments            | Segment horizontal indépendant, stylisation avancée         |
-| `FourteenSegmentDisplay`         | 14 segments           | Lettres, chiffres, idle animation, segments manuels         |
-| `FiveDigitDisplay`               | 7 segments x5         | Chiffres multiples personnalisables                         |
-| `FiveDigitDisplayWithReflect`    | 7 segments x5 + ref   | Reflet miroir réaliste                                      |
-| `Multi7SegDisplay`               | 7 segments dynamiques | Chaine / override / reflet optionnel                        |
-| `Multi14SegDisplay`              | 14 segments dynamiques| Texte complet, config globale                               |
-| `LedBarGraph`                    | LED verticale         | Vu-mètre, pic animé, couleurs multiples                     |
-| `RealisticLED`                   | LED unique            | Glow, blink, halo                                           |
-| `RotaryKnob`                     | Potentiomètre         | Réalisme max, crans, haptique, effets de lumière dynamiques |
-| `RotaryKnobLimited`              | Potentiomètre         | Réalisme max, crans, haptique, effets de lumière dynamiques |
-| `SimpleNeonOscilloscope`         | Decoration            | Formes animées, glow, custom waveform                       |
-| `Fractal visualizer`             | Visualizer            | Formes animées, glow, custom waveform                       |
-| `Wave forms visualizer`          | Visualizer            | Formes animées, glow, custom waveform                       |
-
+- Shapes: sine, square, triangle, chaos, random.  
+- Supports custom shapes via lambda.  
+- Parameters: thickness, color, glow style, frequency.
 
 ---
 
-##  Technologies utilisées
+| Component                      | Type                  | Key Features                                               |
+|-------------------------------|-----------------------|------------------------------------------------------------|
+| `SevenSegmentDigitDisplay`     | 7 segments            | Standard proportions, glow & flicker effects               |
+| `SevenSegmentDigitDisplayAlt`  | 7 segments            | Independent horizontal segment, advanced styling           |
+| `SevenSegmentDigitDisplayExt`  | 7 segments            | Independent horizontal segment, advanced styling           |
+| `SevenSegmentDisplay`          | 7 segments            | Independent horizontal segment, advanced styling           |
+| `FourteenSegmentDisplay`       | 14 segments           | Letters, digits, idle animation, manual segments            |
+| `FiveDigitDisplay`             | 7 segments x5         | Multiple customizable digits                                |
+| `FiveDigitDisplayWithReflect`  | 7 segments x5 + refl. | Realistic mirror reflection                                 |
+| `Multi7SegDisplay`             | Dynamic 7 segments    | String / override / optional reflection                     |
+| `Multi14SegDisplay`            | Dynamic 14 segments   | Full text, global config                                    |
+| `LedBarGraph`                  | Vertical LED bar      | VU meter, animated peak, multiple colors                    |
+| `RealisticLED`                 | Single LED            | Glow, blink, halo                                          |
+| `RotaryKnob`                   | Rotary knob           | Max realism, detents, haptics, dynamic light effects       |
+| `RotaryKnobLimited`            | Rotary knob           | Max realism, detents, haptics, dynamic light effects       |
+| `SimpleNeonOscilloscope`       | Decoration            | Animated shapes, glow, custom waveform                      |
+| `Fractal visualizer`           | Visualizer            | Animated shapes, glow, custom waveform                      |
+| `Wave forms visualizer`        | Visualizer            | Animated shapes, glow, custom waveform                      |
 
-- **Jetpack Compose** : moteur de rendu UI natif.
-- **Canvas 2D** : rendu manuel des segments, LEDs et courbes.
-- **RenderEffect / BlurMaskFilter** : effets de glow et halo.
-- **Animations Compose** : pour flicker, clignotement et interpolation.
-- **Kotlin Multiplateforme ready** : code compatible UI Jetpack Compose Desktop (avec adaptation).
+---
+
+## Technologies Used
+
+- **Jetpack Compose**: Native UI rendering engine.  
+- **2D Canvas**: Manual rendering of segments, LEDs, and curves.  
+- **RenderEffect / BlurMaskFilter**: Glow and halo effects.  
+- **Compose Animations**: For flicker, blinking, and interpolation.  
+- **Kotlin Multiplatform Ready**: Code compatible with Jetpack Compose Desktop (with adaptations).
+
+---
+
+## 📸 Screenshots
+
+| 7-segments | 14-segments | Rotary Knob | LED |
+|:---:|:---:|:---:|:---:|
+| ![7-segments](screenshots/signup.gif) | ![14-segments](screenshots/navigationmedic.gif) | ![Knob](screenshots/navigationaisle.gif) | ![LED](screenshots/searchmedic.gif) |
+
+| LED bar | Oscilloscope deco | Fractal visualizer | Wave forms |
+|:---:|:---:|:---:|:---:|
+| ![LedBar](screenshots/addmedic.gif) | ![Oscilloscope](screenshots/deletemedic.gif) | ![Fractal](screenshots/searchmedic.gif) | ![Waves](screenshots/searchmedic.gif) |
+
 
 ---
 
 ## 🛡️ Badges
 
-![Jetpack Compose](https://img.shields.io/badge/Jetpack%20Compose-%E2%9C%94-green)
-![Kotlin](https://img.shields.io/badge/Kotlin-%E2%9C%94-blue)
-![License: MIT](https://img.shields.io/badge/license-MIT-lightgrey)
-![Platform: Android & Desktop](https://img.shields.io/badge/platform-Android%20%7C%20Desktop-orange)
+![Kotlin](https://img.shields.io/badge/Kotlin-7F52FF?logo=kotlin&logoColor=white)
+![Jetpack Compose](https://img.shields.io/badge/Jetpack%20Compose-4285F4?logo=android&logoColor=white)
+![Android Studio](https://img.shields.io/badge/Android%20Studio-3DDC84?logo=androidstudio&logoColor=white)
+![Platform: Android & Desktop](https://img.shields.io/badge/platform-Android%20%7C%20Desktop-orange)  
 ![UI Style: Retro](https://img.shields.io/badge/Style-Retro%20Display-%23ff69b4)
 
 ---
