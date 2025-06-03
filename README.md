@@ -162,7 +162,7 @@ Stylized neon oscilloscope displaying Lissajous curves.
 
 ---
 
-## 📸 Screenshots
+##  Screenshots
 
 | 7-segments | 14-segments | Rotary Knob | LED |
 |:---:|:---:|:---:|:---:|
@@ -174,8 +174,6 @@ Stylized neon oscilloscope displaying Lissajous curves.
 
 
 ---
-
-## 🛡️ Badges
 
 ![Kotlin](https://img.shields.io/badge/Kotlin-7F52FF?logo=kotlin&logoColor=white)
 ![Jetpack Compose](https://img.shields.io/badge/Jetpack%20Compose-4285F4?logo=android&logoColor=white)
