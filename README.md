@@ -166,9 +166,9 @@ Stylized neon oscilloscope displaying Lissajous curves.
 
 ##  Screenshots
 
-| 7-segments | 14-segments | Rotary Knob | LED |
+| 7-segments | 7-segments more | Rotary Knob + LED | 14-segments |
 |:---:|:---:|:---:|:---:|
-| ![7-segments](screenshots/demo7segments.gif) | ![14-segments](screenshots/navigationmedic.gif) | ![Knob](screenshots/navigationaisle.gif) | ![LED](screenshots/searchmedic.gif) |
+| ![7-segments](screenshots/demo7segments.gif) | ![7-segments Bis](screenshots/demo7segmentsB.gif) | ![Knob](screenshots/demoKnob.gif) | ![14-segments](screenshots/searchmedic.gif) |
 
 | Oscilloscope deco | Fractal visualizer | LED bar | Wave forms |
 |:---:|:---:|:---:|:---:|
