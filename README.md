@@ -18,6 +18,28 @@ A set of realistic UI components built with Jetpack Compose, including:
 - Analog rotary knobs (inspired by Marshall / Moog style).  
 - Full customization support: color, alpha, size, animation, state, style.
 
+
+---
+
+| Component                      | Type                  | Key Features                                                |
+|--------------------------------|-----------------------|-------------------------------------------------------------|
+| `SevenSegmentDigitDisplay`     | 7 segments            | Standard proportions, glow & flicker effects                |
+| `SevenSegmentDigitDisplayAlt`  | 7 segments            | Independent horizontal segment, advanced styling            |
+| `SevenSegmentDigitDisplayExt`  | 7 segments            | Independent horizontal segment, advanced styling            |
+| `SevenSegmentDisplay`          | 7 segments            | Independent horizontal segment, advanced styling            |
+| `FourteenSegmentDisplay`       | 14 segments           | Letters, digits, idle animation, manual segments            |
+| `FiveDigitDisplay`             | 7 segments x5         | Multiple customizable digits                                |
+| `FiveDigitDisplayWithReflect`  | 7 segments x5 + refl. | Realistic mirror reflection                                 |
+| `Multi7SegDisplay`             | Dynamic 7 segments    | String / override / optional reflection                     |
+| `Multi14SegDisplay`            | Dynamic 14 segments   | Full text, global config                                    |
+| `LedBarGraph`                  | Vertical LED bar      | VU meter, animated peak, multiple colors                    |
+| `RealisticLED`                 | Single LED            | Glow, blink, halo                                           |
+| `RotaryKnob`                   | Rotary knob           | Max realism, detents, haptics, dynamic light effects        |
+| `RotaryKnobLimited`            | Rotary knob           | Max realism, detents, haptics, dynamic light effects        |
+| `SimpleNeonOscilloscope`       | Decoration            | Animated shapes, glow, custom waveform                      |
+| `Fractal visualizer`           | Visualizer            | Animated shapes, glow, custom waveform                      |
+| `Wave forms visualizer`        | Visualizer            | Animated shapes, glow, custom waveform                      |
+
 ---
 
 ## 🧩 Included Components
@@ -140,27 +162,6 @@ Stylized neon oscilloscope displaying Lissajous curves.
 - Shapes: sine, square, triangle, chaos, random.  
 - Supports custom shapes via lambda.  
 - Parameters: thickness, color, glow style, frequency.
-
----
-
-| Component                      | Type                  | Key Features                                                |
-|--------------------------------|-----------------------|-------------------------------------------------------------|
-| `SevenSegmentDigitDisplay`     | 7 segments            | Standard proportions, glow & flicker effects                |
-| `SevenSegmentDigitDisplayAlt`  | 7 segments            | Independent horizontal segment, advanced styling            |
-| `SevenSegmentDigitDisplayExt`  | 7 segments            | Independent horizontal segment, advanced styling            |
-| `SevenSegmentDisplay`          | 7 segments            | Independent horizontal segment, advanced styling            |
-| `FourteenSegmentDisplay`       | 14 segments           | Letters, digits, idle animation, manual segments            |
-| `FiveDigitDisplay`             | 7 segments x5         | Multiple customizable digits                                |
-| `FiveDigitDisplayWithReflect`  | 7 segments x5 + refl. | Realistic mirror reflection                                 |
-| `Multi7SegDisplay`             | Dynamic 7 segments    | String / override / optional reflection                     |
-| `Multi14SegDisplay`            | Dynamic 14 segments   | Full text, global config                                    |
-| `LedBarGraph`                  | Vertical LED bar      | VU meter, animated peak, multiple colors                    |
-| `RealisticLED`                 | Single LED            | Glow, blink, halo                                           |
-| `RotaryKnob`                   | Rotary knob           | Max realism, detents, haptics, dynamic light effects        |
-| `RotaryKnobLimited`            | Rotary knob           | Max realism, detents, haptics, dynamic light effects        |
-| `SimpleNeonOscilloscope`       | Decoration            | Animated shapes, glow, custom waveform                      |
-| `Fractal visualizer`           | Visualizer            | Animated shapes, glow, custom waveform                      |
-| `Wave forms visualizer`        | Visualizer            | Animated shapes, glow, custom waveform                      |
 
 ---
 
