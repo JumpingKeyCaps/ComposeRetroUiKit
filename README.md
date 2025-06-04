@@ -143,21 +143,21 @@ Stylized neon oscilloscope displaying Lissajous curves.
 
 ---
 
-| Component                      | Type                  | Key Features                                               |
-|-------------------------------|-----------------------|------------------------------------------------------------|
-| `SevenSegmentDigitDisplay`     | 7 segments            | Standard proportions, glow & flicker effects               |
-| `SevenSegmentDigitDisplayAlt`  | 7 segments            | Independent horizontal segment, advanced styling           |
-| `SevenSegmentDigitDisplayExt`  | 7 segments            | Independent horizontal segment, advanced styling           |
-| `SevenSegmentDisplay`          | 7 segments            | Independent horizontal segment, advanced styling           |
+| Component                      | Type                  | Key Features                                                |
+|--------------------------------|-----------------------|-------------------------------------------------------------|
+| `SevenSegmentDigitDisplay`     | 7 segments            | Standard proportions, glow & flicker effects                |
+| `SevenSegmentDigitDisplayAlt`  | 7 segments            | Independent horizontal segment, advanced styling            |
+| `SevenSegmentDigitDisplayExt`  | 7 segments            | Independent horizontal segment, advanced styling            |
+| `SevenSegmentDisplay`          | 7 segments            | Independent horizontal segment, advanced styling            |
 | `FourteenSegmentDisplay`       | 14 segments           | Letters, digits, idle animation, manual segments            |
 | `FiveDigitDisplay`             | 7 segments x5         | Multiple customizable digits                                |
 | `FiveDigitDisplayWithReflect`  | 7 segments x5 + refl. | Realistic mirror reflection                                 |
 | `Multi7SegDisplay`             | Dynamic 7 segments    | String / override / optional reflection                     |
 | `Multi14SegDisplay`            | Dynamic 14 segments   | Full text, global config                                    |
 | `LedBarGraph`                  | Vertical LED bar      | VU meter, animated peak, multiple colors                    |
-| `RealisticLED`                 | Single LED            | Glow, blink, halo                                          |
-| `RotaryKnob`                   | Rotary knob           | Max realism, detents, haptics, dynamic light effects       |
-| `RotaryKnobLimited`            | Rotary knob           | Max realism, detents, haptics, dynamic light effects       |
+| `RealisticLED`                 | Single LED            | Glow, blink, halo                                           |
+| `RotaryKnob`                   | Rotary knob           | Max realism, detents, haptics, dynamic light effects        |
+| `RotaryKnobLimited`            | Rotary knob           | Max realism, detents, haptics, dynamic light effects        |
 | `SimpleNeonOscilloscope`       | Decoration            | Animated shapes, glow, custom waveform                      |
 | `Fractal visualizer`           | Visualizer            | Animated shapes, glow, custom waveform                      |
 | `Wave forms visualizer`        | Visualizer            | Animated shapes, glow, custom waveform                      |
@@ -168,11 +168,11 @@ Stylized neon oscilloscope displaying Lissajous curves.
 
 | 7-segments | 7-segments more | Rotary Knob + LED | 14-segments |
 |:---:|:---:|:---:|:---:|
-| ![7-segments](screenshots/demo7segments.gif) | ![7-segments Bis](screenshots/demo7segmentsB.gif) | ![Knob](screenshots/demoKnob.gif) | ![14-segments](screenshots/searchmedic.gif) |
+| ![7-segments](screenshots/demo7segments.gif) | ![7-segments Bis](screenshots/demo7segmentsB.gif) | ![Knob](screenshots/demoKnob.gif) | ![14-segments](screenshots/demo14seg.gif) |
 
-| Oscilloscope deco | Fractal visualizer | LED bar | Wave forms |
+| Oscilloscope deco | Fractal visualizer | LED bar | Frequency Map visualizer |
 |:---:|:---:|:---:|:---:|
-| ![Oscilloscope](screenshots/demoOscillo.gif)| ![Fractal](screenshots/demoFractal.gif) |![LedBar](screenshots/demoLedbar.gif) | ![Waves](screenshots/searchmedic.gif) |
+| ![Oscilloscope](screenshots/demoOscillo.gif)| ![Fractal](screenshots/demoFractal.gif) |![LedBar](screenshots/demoLedbar.gif) | ![FreqMap](screenshots/demoFreqMap.gif) |
 
 ---
 
