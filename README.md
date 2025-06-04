@@ -164,16 +164,6 @@ Stylized neon oscilloscope displaying Lissajous curves.
 
 ---
 
-## Technologies Used
-
-- **Jetpack Compose**: Native UI rendering engine.  
-- **2D Canvas**: Manual rendering of segments, LEDs, and curves.  
-- **RenderEffect / BlurMaskFilter**: Glow and halo effects.  
-- **Compose Animations**: For flicker, blinking, and interpolation.  
-- **Kotlin Multiplatform Ready**: Code compatible with Jetpack Compose Desktop (with adaptations).
-
----
-
 ##  Screenshots
 
 | 7-segments | 14-segments | Rotary Knob | LED |
@@ -182,7 +172,19 @@ Stylized neon oscilloscope displaying Lissajous curves.
 
 | Oscilloscope deco | Fractal visualizer | LED bar | Wave forms |
 |:---:|:---:|:---:|:---:|
-| ![Oscilloscope](screenshots/demoOscillo.gif)| ![Fractal](screenshots/demoFractal.gif) |![LedBar](screenshots/addmedic.gif) | ![Waves](screenshots/searchmedic.gif) |
+| ![Oscilloscope](screenshots/demoOscillo.gif)| ![Fractal](screenshots/demoFractal.gif) |![LedBar](screenshots/demoLedbar.gif) | ![Waves](screenshots/searchmedic.gif) |
+
+---
+
+## Technologies Used
+
+- **Jetpack Compose**: Native UI rendering engine.  
+- **2D Canvas**: Manual rendering of segments, LEDs, and curves.  
+- **RenderEffect / BlurMaskFilter**: Glow and halo effects.  
+- **Compose Animations**: For flicker, blinking, and interpolation.  
+- **Kotlin Multiplatform Ready**: Code compatible with Jetpack Compose Desktop (with adaptations).
+
+
 
 
 ---
