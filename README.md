@@ -42,6 +42,33 @@ A set of realistic UI components built with Jetpack Compose, including:
 
 ---
 
+
+## Technologies Used
+
+- **Jetpack Compose**: Native UI rendering engine.  
+- **2D Canvas**: Manual rendering of segments, LEDs, and curves.  
+- **RenderEffect / BlurMaskFilter**: Glow and halo effects.  
+- **Compose Animations**: For flicker, blinking, and interpolation.  
+- **Kotlin Multiplatform Ready**: Code compatible with Jetpack Compose Desktop (with adaptations).
+
+
+---
+
+
+##  Screenshots
+
+| 7-segments | 7-segments more | Rotary Knob + LED | 14-segments |
+|:---:|:---:|:---:|:---:|
+| ![7-segments](screenshots/demo7segments.gif) | ![7-segments Bis](screenshots/demo7segmentsB.gif) | ![Knob](screenshots/demoKnob.gif) | ![14-segments](screenshots/demo14seg.gif) |
+
+| Oscilloscope deco | Fractal visualizer | LED bar | Frequency Map visualizer |
+|:---:|:---:|:---:|:---:|
+| ![Oscilloscope](screenshots/demoOscillo.gif)| ![Fractal](screenshots/demoFractal.gif) |![LedBar](screenshots/demoLedbar.gif) | ![FreqMap](screenshots/demoFreqMap.gif) |
+
+
+---
+
+
 ## 🧩 Included Components
 
 ### `SevenSegmentDigitDisplay`
@@ -162,30 +189,6 @@ Stylized neon oscilloscope displaying Lissajous curves.
 - Shapes: sine, square, triangle, chaos, random.  
 - Supports custom shapes via lambda.  
 - Parameters: thickness, color, glow style, frequency.
-
----
-
-##  Screenshots
-
-| 7-segments | 7-segments more | Rotary Knob + LED | 14-segments |
-|:---:|:---:|:---:|:---:|
-| ![7-segments](screenshots/demo7segments.gif) | ![7-segments Bis](screenshots/demo7segmentsB.gif) | ![Knob](screenshots/demoKnob.gif) | ![14-segments](screenshots/demo14seg.gif) |
-
-| Oscilloscope deco | Fractal visualizer | LED bar | Frequency Map visualizer |
-|:---:|:---:|:---:|:---:|
-| ![Oscilloscope](screenshots/demoOscillo.gif)| ![Fractal](screenshots/demoFractal.gif) |![LedBar](screenshots/demoLedbar.gif) | ![FreqMap](screenshots/demoFreqMap.gif) |
-
----
-
-## Technologies Used
-
-- **Jetpack Compose**: Native UI rendering engine.  
-- **2D Canvas**: Manual rendering of segments, LEDs, and curves.  
-- **RenderEffect / BlurMaskFilter**: Glow and halo effects.  
-- **Compose Animations**: For flicker, blinking, and interpolation.  
-- **Kotlin Multiplatform Ready**: Code compatible with Jetpack Compose Desktop (with adaptations).
-
-
 
 
 ---
